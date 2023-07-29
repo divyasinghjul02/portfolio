@@ -1,3 +1,5 @@
+"use strict"
+
 // function on click burger btn
 document.querySelector("#btn-1").addEventListener("click", function () {
     let menu = document.querySelector("#menu");  
@@ -44,33 +46,33 @@ document.querySelector("#btn-1").addEventListener("click", function () {
     //  function for scroll active
     let actives=document.querySelectorAll("#menu li a")
     if(sP<=50 && sP<=600){
-      actives[0].style.color="cyan"  
+      actives[0].style.color="#01a7a7"  
       actives[1].style.color="black"  
       actives[2].style.color="black"  
       actives[3].style.color="black"  
-    } else if(sP>=640 && sP<=813){
+    } else if(sP>=640 && sP<=1551){
       actives[0].style.color="black"  
-      actives[1].style.color="cyan"  
+      actives[1].style.color="#01a7a7"  
       actives[2].style.color="black"  
       actives[4].style.color="black"  
       actives[3].style.color="black"
-    }else if(sP>=1600 && sP<=2200){
+    }else if(sP>=1551 && sP<=2190){
       actives[0].style.color="black"  
       actives[1].style.color="black"  
-      actives[2].style.color="cyan"  
+      actives[2].style.color="#01a7a7"  
       actives[4].style.color="black"  
       actives[3].style.color="black"
-    }else if(sP>=2200 && sP<=3200){
+    }else if(sP>=2190 && sP<=3025){
       actives[0].style.color="black"  
       actives[1].style.color="black"
       actives[2].style.color="black"  
       actives[4].style.color="black"  
-      actives[3].style.color="cyan"  
-    }else if(sP>=3200){
+      actives[3].style.color="#01a7a7"  
+    }else if(sP>=3025){
       actives[0].style.color="black"  
       actives[1].style.color="black"
       actives[2].style.color="black"  
-      actives[4].style.color="cyan"  
+      actives[4].style.color="#01a7a7"  
       actives[3].style.color="black"  
     }
     
@@ -98,7 +100,10 @@ document.querySelector("#btn-1").addEventListener("click", function () {
         } else if (i === 3 && window.innerWidth<=712) {
           window.scrollTo({ top: 3565, behavior: 'smooth' });
           document.querySelector("#menu").style.display="none"
-        }
+        }else if (i === 4 && window.innerWidth<=712) {
+            window.scrollTo({ top: 4669, behavior: 'smooth' });
+            document.querySelector("#menu").style.display="none"
+          }
       });
     }
     
