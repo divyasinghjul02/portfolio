@@ -45,35 +45,35 @@ document.querySelector("#btn-1").addEventListener("click", function () {
     }
     //  function for scroll active
     let actives=document.querySelectorAll("#menu li a")
-    if(sP<=50 && sP<=600){
-      actives[0].style.color="#01a7a7"  
-      actives[1].style.color="black"  
-      actives[2].style.color="black"  
-      actives[3].style.color="black"  
+    if(sP>=50 && sP<=600){
+      actives[0].style.color="#01a7a7 !important"  
+      actives[1].style.color="black !important"  
+      actives[2].style.color="black !important"  
+      actives[3].style.color="black !important"  
     } else if(sP>=640 && sP<=813){
-      actives[0].style.color="black"  
-      actives[1].style.color="#01a7a7"  
-      actives[2].style.color="black"  
-      actives[4].style.color="black"  
-      actives[3].style.color="black"
+      actives[0].style.color="black !important"  
+      actives[1].style.color="#01a7a7 !important"  
+      actives[2].style.color="black !important"  
+      actives[4].style.color="black !important"  
+      actives[3].style.color="black !important"
     }else if(sP>=1600 && sP<=2200){
-      actives[0].style.color="black"  
-      actives[1].style.color="black"  
-      actives[2].style.color="#01a7a7"  
-      actives[4].style.color="black"  
-      actives[3].style.color="black"
+      actives[0].style.color="black !important"  
+      actives[1].style.color="black !important"  
+      actives[2].style.color="#01a7a7 !important"  
+      actives[4].style.color="black !important"  
+      actives[3].style.color="black !important"
     }else if(sP>=2200 && sP<=3200){
-      actives[0].style.color="black"  
-      actives[1].style.color="black"
-      actives[2].style.color="black"  
-      actives[4].style.color="black"  
-      actives[3].style.color="#01a7a7"  
+      actives[0].style.color="black !important"  
+      actives[1].style.color="black !important"
+      actives[2].style.color="black !important"  
+      actives[4].style.color="black !important"  
+      actives[3].style.color="#01a7a7 !important"  
     }else if(sP>=3200){
-      actives[0].style.color="black"  
-      actives[1].style.color="black"
-      actives[2].style.color="black"  
-      actives[4].style.color="#01a7a7"  
-      actives[3].style.color="black"  
+      actives[0].style.color="black !important"  
+      actives[1].style.color="black !important"
+      actives[2].style.color="black !important"  
+      actives[4].style.color="#01a7a7 !important"  
+      actives[3].style.color="black !important"  
     }
     
   }); 
