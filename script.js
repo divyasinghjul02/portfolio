@@ -33,15 +33,13 @@ document.querySelector("#btn-1").addEventListener("click", function () {
       document.querySelector('.p-css').style.width = '85%';
       document.querySelector('.p-js').style.width = '70%';
       document.querySelector('.p-bs').style.width = '80%';
-      document.querySelector('.p-jq').style.width = '60%';
-      document.querySelector('.p-sass').style.width = '85%';
+      
     } else if (sP >= 1416) {
       document.querySelector('.p-html').style.width = '0%';
       document.querySelector('.p-css').style.width = '0%';
       document.querySelector('.p-js').style.width = '0%';
       document.querySelector('.p-bs').style.width = '0%';
-      document.querySelector('.p-jq').style.width = '0%';
-      document.querySelector('.p-sass').style.width = '0%';
+      
     }
     //  function for scroll active
     let actives=document.querySelectorAll("#menu li a")
